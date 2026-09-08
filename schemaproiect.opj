@@ -1,0 +1,163 @@
+(ExpressProject "jj"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\jj.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE"))
+  (Folder "Outputs"
+    (File ".\jj-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\jj-pspicefiles\schematic1\ds.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\jj-pspicefiles\schematic1\ds.sim"
+        (DisplayName "SCHEMATIC1-ds")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "..\pspice\library\analog.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\analog.lib"))
+      (File "..\pspice\library\ediode.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\ediode.lib"))
+      (File "..\pspice\library\source.slb"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\source.slb"))
+      (File "..\pspice\library\dig_io.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\dig_io.lib"))
+      (File "..\pspice\library\eval.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\eval.lib"))
+      (File "..\pspice\library\74l.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\74l.lib"))
+      (File "..\pspice\library\cd4000.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\cd4000.lib"))
+      (File "..\pspice\library\aa_misc.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\aa_misc.lib"))
+      (File "..\pspice\library\opamp.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\opamp.lib"))
+      (File "..\pspice\library\diode.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice\library\diode.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (D1N4001
+      (FullPartName "D1N4001.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CD4093B
+      (FullPartName "CD4093B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\CD4000.OLB")
+      (DeviceIndex "3"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (1N4148
+      (FullPartName "1N4148.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\EDIODE.OLB")
+      (DeviceIndex "0"))
+    (d
+      (FullPartName "d.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (CD4011A
+      (FullPartName "CD4011A.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\CD4000.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM7805C
+      (FullPartName "LM7805C.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (54L03
+      (FullPartName "54L03.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\74L.OLB")
+      (DeviceIndex "3"))
+    (CD4011B
+      (FullPartName "CD4011B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\CD4000.OLB")
+      (DeviceIndex "3"))
+    (CD40107B
+      (FullPartName "CD40107B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\CD4000.OLB")
+      (DeviceIndex "1"))
+    (D1N1190
+      (FullPartName "D1N1190.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (LM358
+      (FullPartName "LM358.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (Q2N2222
+      (FullPartName "Q2N2222.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\BIPOLAR.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\Cadence\SPB_16.6\tools\capture\jj.dsn")
+      (Path "Design Resources" "C:\Cadence\SPB_16.6\tools\capture\jj.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" "C:\Cadence\SPB_16.6\tools\capture\jj.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -13 -58 0 258 0 745"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -13 -58 98 2588 98 914")
+        (Scroll "429 203")
+        (Zoom "294")
+        (Occurrence "/"))
+      (Path "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\JJ.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Silviu"))
